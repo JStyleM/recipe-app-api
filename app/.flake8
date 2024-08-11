@@ -6,5 +6,6 @@ exclude =
     manage.py,
     settings.py
 
+max-line-length = 100
 
 docker-compose run --rm app sh -c "flake8"
