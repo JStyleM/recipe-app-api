@@ -1,11 +1,9 @@
 
 [flake8]
+max-line-length = 100
 exclude =
     migrations,
     __pycache__,
     manage.py,
     settings.py
 
-max-line-length = 100
-
-docker-compose run --rm app sh -c "flake8"
